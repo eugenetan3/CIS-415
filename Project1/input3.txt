@@ -1,0 +1,7 @@
+ls ; 
+ls ls
+ls ; ls
+ls ; ls ; test
+ls test
+ls ; ls test
+ls ls ls ls ; test ls
