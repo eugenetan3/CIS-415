@@ -1,0 +1,339 @@
+==4328== Memcheck, a memory error detector
+==4328== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4328== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4328== Command: ./part4 input.txt
+==4328== 
+total 220
+16 part4.c
+24 part4
+12 part3.c
+24 part3
+ 8 part2.c
+20 part2
+ 8 part1.c
+20 part1
+ 4 Makefile
+ 4 log4.txt
+12 log3.txt
+ 4 log2.txt
+ 4 log1.txt
+ 8 lab6.c
+ 8 lab5.c
+ 4 iobound.c
+12 iobound
+ 4 input.txt
+ 4 cpubound.c
+12 cpubound
+ 4 ..
+ 4 .
+Child Process: 4334 - Waiting for SIGUSR1 ...
+Child Process: 4334 - Received SIGUSR1 - Calling exec()
+Child (PID 4334) failed to execute program invalid. 
+==4334== 
+==4334== HEAP SUMMARY:
+==4334==     in use at exit: 0 bytes in 0 blocks
+==4334==   total heap usage: 10 allocs, 10 frees, 16,032 bytes allocated
+==4334== 
+==4334== All heap blocks were freed -- no leaks are possible
+==4334== 
+==4334== For counts of detected and suppressed errors, rerun with: -v
+==4334== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+Sending SIGUSR1 to processes...
+Parent process: 1963 - Sending signal: 10 to child process: 4332
+Parent process: 1963 - Sending signal: 10 to child process: 4333
+Parent process: 1963 - Sending signal: 10 to child process: 4334
+Parent process: 1963 - Sending signal: 10 to child process: 4335
+Parent process: 1963 - Sending signal: 10 to child process: 4336
+Parent process: 1963 - Sending signal: 19 to child process: 4332
+Parent process: 1963 - Sending signal: 19 to child process: 4333
+Parent process: 1963 - Sending signal: 19 to child process: 4334
+Parent process: 1963 - Sending signal: 19 to child process: 4335
+Parent process: 1963 - Sending signal: 19 to child process: 4336
+Sent SIGSTOP to stop all processes...
+Beginning Round-Robin Time Slicing - Time Quantum: 1 second...
+-------------------------------------------------------
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-----------------------------------------------------Process: 4336 - Begining calculation.
+Process: 4336 - Finished.
+Process: 4335 - Begining to write to file.
+Process: 4335 - Finished.
+--
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: SIGSTOP signal given. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: R - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: T - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Alive Process ID: 4336 - Command Process: (cpubound) - State: Z - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+-------------------------------------------------------
+Child Process - 4336: Process has been terminated. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGSTOP signal given. 
+Child Process - 4336: Process has been terminated. 
+Child Process - 4332: Process has been terminated. 
+Child Process - 4333: Process has been terminated. 
+Child Process - 4334: Process has been terminated. 
+Child Process - 4335: SIGCONT signal given. 
+Alive Process ID: 4335 - Command Process: (iobound) - State: Z - Parent PID: 4328 - Process Group: 4328 - Process Priority: 20 
+Beginning wait for children...
+Waiting for child (PID 4332) to exit.
+Waiting for child (PID 4333) to exit.
+Waiting for child (PID 4334) to exit.
+Waiting for child (PID 4335) to exit.
+Waiting for child (PID 4336) to exit.
+==4328== 
+==4328== HEAP SUMMARY:
+==4328==     in use at exit: 0 bytes in 0 blocks
+==4328==   total heap usage: 328 allocs, 328 frees, 176,516 bytes allocated
+==4328== 
+==4328== All heap blocks were freed -- no leaks are possible
+==4328== 
+==4328== For counts of detected and suppressed errors, rerun with: -v
+==4328== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
